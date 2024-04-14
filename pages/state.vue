@@ -4,9 +4,9 @@ import {useCounterStore} from '~/stores/myStore'
 // useState() dùng cho các app nhỏ ko có nhiều state
 // Pinia dùng cho các app lớn vơi nhiều state
 const color = useColor() 
-// const store = useCounterStore()
+const store = useCounterStore()
 
-// console.log('store', store.name)
+console.log('store', store.name)
 </script>
 
 <template>
